@@ -1,0 +1,49 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(400px, 1fr)
+  ); /* This will create a responsive number of columns based on the container's width */
+  grid-gap: 20px; /* This is the space between the posts */
+  padding: 20px;
+  margin: 10%;
+}
+
+.post {
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+  /* No need for width or margin as grid will handle the layout */
+  padding: 20px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block; /* To ensure no extra space for inline elements */
+}
+
+/* Additional styles */
+.post h2 {
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* You can remove the width and margin from .post as the grid layout controls the placement and size */
+
+.post h2 {
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+}
+.post-header {
+  color: bisque;
+}
+.post-date {
+  color: cornflowerblue;
+}
+.post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.198);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
