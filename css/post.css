@@ -13,24 +13,20 @@
   border: 5px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 4px rgba(0, 0, 0, 0.1);
-  /* No need for width or margin as grid will handle the layout */
   padding: 20px;
 }
 
 .post img {
   width: 100%;
-  height: auto;
+  height: 250px;
   border-radius: 5px;
-  display: block; /* To ensure no extra space for inline elements */
+  display: block;
 }
 
-/* Additional styles */
 .post h2 {
   color: #333;
   font-family: "Times New Roman", Times, serif;
 }
-
-/* You can remove the width and margin from .post as the grid layout controls the placement and size */
 
 .post h2 {
   color: #333;
@@ -38,6 +34,9 @@
 }
 .post-header {
   color: bisque;
+}
+.post-header-2 {
+  color: rgb(162, 143, 213);
 }
 .post-date {
   color: cornflowerblue;
